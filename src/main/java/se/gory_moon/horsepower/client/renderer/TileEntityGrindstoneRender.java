@@ -1,17 +1,17 @@
 package se.gory_moon.horsepower.client.renderer;
 
 import net.minecraft.block.state.IBlockState;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.renderer.*;
-import net.minecraft.client.renderer.block.model.IBakedModel;
-import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
-import net.minecraft.item.ItemStack;
-import org.lwjgl.opengl.GL11;
-import se.gory_moon.horsepower.blocks.BlockGrindstone;
-import se.gory_moon.horsepower.blocks.BlockHPBase;
-import se.gory_moon.horsepower.client.model.modelvariants.GrindStoneModels;
-import se.gory_moon.horsepower.tileentity.TileEntityGrindstone;
-import se.gory_moon.horsepower.util.RenderUtils;
+    import net.minecraft.client.Minecraft;
+    import net.minecraft.client.renderer.*;
+    import net.minecraft.client.renderer.block.model.IBakedModel;
+    import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
+    import net.minecraft.item.ItemStack;
+    import org.lwjgl.opengl.GL11;
+    import se.gory_moon.horsepower.blocks.BlockGrindstone;
+    import se.gory_moon.horsepower.blocks.BlockHPBase;
+    import se.gory_moon.horsepower.client.model.modelvariants.GrindStoneModels;
+    import se.gory_moon.horsepower.tileentity.TileEntityGrindstone;
+    import se.gory_moon.horsepower.util.RenderUtils;
 
 public class TileEntityGrindstoneRender extends TileEntityHPBaseRenderer<TileEntityGrindstone> {
 

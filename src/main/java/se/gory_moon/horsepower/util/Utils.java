@@ -64,6 +64,7 @@ public class Utils {
         NBTTagCompound tag = stack.writeToNBT(new NBTTagCompound());
         tag.removeTag("Count");
         tag.removeTag("Damage");
+        tag.removeTag("ForgeCaps");
         return tag.hashCode();
     }
 
